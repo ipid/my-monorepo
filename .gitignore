@@ -1,0 +1,20 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Copyright (c) Kuaishou Corporation. All rights reserved.
+# https://developers.kuaishou.com/LICENSE.txt
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dist/
+lerna-debug.log*
+node_modules/
+npm-debug.log*
+package-lock.json
+tsconfig.tsbuildinfo
+yarn-debug.log*
+yarn-error.log*
+# Yarn v3 文件
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
